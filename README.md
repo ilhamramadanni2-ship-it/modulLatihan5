@@ -104,7 +104,7 @@ g++ main.cpp Singlylist.cpp -o main.exe
 ./main.exe
 ```[cite: 17]
 
-### Melalui Code::Blocks IDE[cite: 17]
+### Melalui Code::Blocks IDE
 
 1. Buka Code::Blocks.[cite: 17]
 2. Buat project baru: **File > New > Project > Console Application > C++**.[cite: 17]
