@@ -40,6 +40,7 @@ Implementasi ADT Singly Linked List dalam C++ untuk praktikum Struktur Data, Mod
 Karena `insertFirst` menempatkan setiap elemen baru di posisi paling depan (`First`), maka urutan elemen dalam list menjadi: First → [9] → [12] → [8] → [0] → [2] → Nil
 
 4. Output Soal No. 2 (Gamb5-2):
+   
 9 12 8 0 2
 
    
