@@ -99,7 +99,7 @@ Total info dari kelima elemen adalah 31
 cd cpp/pertemuan5
 g++ main.cpp Singlylist.cpp -o main.exe
 ./main.exe
-```
+``
 
 ### Melalui Code::Blocks IDE
 
