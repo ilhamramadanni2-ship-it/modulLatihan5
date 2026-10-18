@@ -43,20 +43,20 @@ Karena `insertFirst` menempatkan setiap elemen baru di posisi paling depan (`Fir
    
 `9 12 8 0 2`
 
-### Soal No. 3: Pencarian Elemen dengan Info 8[cite: 21]
+### Soal No. 3: Pencarian Elemen dengan Info 8
 
-1. **Spesifikasi Fungsi:**[cite: 21]
+1. **Spesifikasi Fungsi:**
    ```cpp
    address findElm(List L, infotype x);
    ```[cite: 21]
 
-2. **Cara Kerja:**[cite: 21]
-   * Menelusuri list mulai dari `L.First`.[cite: 21]
-   * Memeriksa apakah nilai `P->info == x`.[cite: 21]
-   * Jika ditemukan, mengembalikan alamat/pointer `P`.[cite: 21]
-   * Jika penelusuran sampai akhir list (`Nil`) tidak menemukan nilai yang cocok, mengembalikan `Nil`.[cite: 21]
+2. **Cara Kerja:**
+   * Menelusuri list mulai dari `L.First`.
+   * Memeriksa apakah nilai `P->info == x`.
+   * Jika ditemukan, mengembalikan alamat/pointer `P`.
+   * Jika penelusuran sampai akhir list (`Nil`) tidak menemukan nilai yang cocok, mengembalikan `Nil`.
 
-3. **Pemanggilan & Output Soal No. 3 (Gambar 5-3):**[cite: 21]
+3. **Pemanggilan & Output Soal No. 3 (Gambar 5-3):**
    ```cpp
    address P_cari = findElm(L, 8);
    if (P_cari != Nil) {
@@ -64,10 +64,56 @@ Karena `insertFirst` menempatkan setiap elemen baru di posisi paling depan (`Fir
    }
    ```[cite: 21]
 
-**Output:**[cite: 21]
-```text
+**Output:**
+``text
 8 ditemukan dalam list
-```[cite: 21]   
+   
+### Soal No. 4: Menghitung Jumlah Total Info Seluruh Elemen
 
+1. **Spesifikasi Fungsi:**
+   ```cpp
+   int totalInfo(List L);
+   ```[cite: 16]
+
+2. **Cara Kerja:**[cite: 16]
+   * Menelusuri list mulai dari elemen pertama hingga elemen terakhir.
+   * Menjumlahkan nilai `info` setiap simpul: `9 + 12 + 8 + 0 + 2 = 31`.
+   * Mengembalikan nilai total akumulasi.
+
+3. **Pemanggilan & Output Soal No. 4 (Gambar 5-4):**
+   ```cpp
+   int total = totalInfo(L);
+   cout << "Total info dari kelima elemen adalah " << total << endl;
+   ```
+
+**Output:**
+```text
+Total info dari kelima elemen adalah 31
+```
+
+## Cara Kompilasi dan Menjalankan
+
+### Melalui Terminal / Command Line (g++)
+
+``bash
+cd cpp/pertemuan5
+g++ main.cpp Singlylist.cpp -o main.exe
+./main.exe
+```
+
+### Melalui Code::Blocks IDE
+
+1. Buka Code::Blocks.[cite: 17]
+2. Buat project baru: **File > New > Project > Console Application > C++**.
+3. Tambahkan file `Singlylist.h`, `Singlylist.cpp`, dan `main.cpp` ke dalam project (centang target Debug dan Release).
+4. Tekan **F9** (*Build and Run*).
+
+## Hasil Eksekusi Program Lengkap.
+
+```text
+9 12 8 0 2
+8 ditemukan dalam list
+Total info dari kelima elemen adalah 31
+```
 
 
