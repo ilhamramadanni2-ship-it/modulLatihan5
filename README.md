@@ -43,7 +43,6 @@ Karena `insertFirst` menempatkan setiap elemen baru di posisi paling depan (`Fir
 
 ```text
 9 12 8 0 2
-```[cite: 15]
 
 ### Soal No. 3: Pencarian Elemen dengan Info 8[cite: 15]
 
