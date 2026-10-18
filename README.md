@@ -43,7 +43,31 @@ Karena `insertFirst` menempatkan setiap elemen baru di posisi paling depan (`Fir
    
 `9 12 8 0 2`
 
-   
+### Soal No. 3: Pencarian Elemen dengan Info 8[cite: 21]
+
+1. **Spesifikasi Fungsi:**[cite: 21]
+   ```cpp
+   address findElm(List L, infotype x);
+   ```[cite: 21]
+
+2. **Cara Kerja:**[cite: 21]
+   * Menelusuri list mulai dari `L.First`.[cite: 21]
+   * Memeriksa apakah nilai `P->info == x`.[cite: 21]
+   * Jika ditemukan, mengembalikan alamat/pointer `P`.[cite: 21]
+   * Jika penelusuran sampai akhir list (`Nil`) tidak menemukan nilai yang cocok, mengembalikan `Nil`.[cite: 21]
+
+3. **Pemanggilan & Output Soal No. 3 (Gambar 5-3):**[cite: 21]
+   ```cpp
+   address P_cari = findElm(L, 8);
+   if (P_cari != Nil) {
+       cout << P_cari->info << " ditemukan dalam list" << endl;
+   }
+   ```[cite: 21]
+
+**Output:**[cite: 21]
+```text
+8 ditemukan dalam list
+```[cite: 21]   
 
 
 
