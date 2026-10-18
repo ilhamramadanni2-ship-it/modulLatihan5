@@ -41,7 +41,7 @@ Karena `insertFirst` menempatkan setiap elemen baru di posisi paling depan (`Fir
 
 4. Output Soal No. 2 (Gamb5-2):
    
-9 12 8 0 2
+`9 12 8 0 2`
 
    
 
